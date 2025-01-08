@@ -13,19 +13,6 @@ EmotionDetector.py:
     Detects faces from a video or webcam feed using Haar cascades.
     Predicts the emotion for each detected face and displays the result in real time.
 
-# Project Structure
-.
-├── data/
-│   ├── train/           # Training dataset
-│   └── test/            # Validation dataset
-├── model/
-│   ├── emotion_model.json
-│   └── emotion_model.h5
-├── haarcascades/
-│   └── haarcascade_frontalface_default.xml
-├── TrainEmotionDetector.py
-├── EmotionDetector.py
-└── README.md
 
 # Requirements
 Python 3.8+
